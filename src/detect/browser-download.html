@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>下载页面</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <style type="text/css"><%= htmlWebpackPlugin.options.inline[2] %></style>
+  </head>
+  <body class="detect-page">
+    <div class="nav detect-header">
+      <div class="nav-left">
+        <div class="nav-item nav-brand">
+          <span>壳保养智慧门店</span>
+        </div>
+      </div>
+    </div>
+    <div class="detect-contanier">
+      <div class="download-title">
+        <span class="download-icon browser-chrome"></span>
+        <h2 class="downloading">Chrome 浏览器已开始下载…</h2>
+        <p class="redownload">如果下载没有自动开始，<a href="#" id="downloadChrome">请点击这里</a> 重试</p>
+        <h3 class="how-to-install">如何安装</h3>
+        <p class="install-step">
+          1. 等待 Chrome 完成下载<br>
+          2. 双击 ChromeStandaloneSetup64.exe 根据提示完成安装<br>
+          3. 打开 Chrome 浏览器体验壳保养智慧门店
+        </p>
+      </div>
+      <hr class="downloading-line">
+      <h3 class="suggesttion">为了下次更好的体验壳保养智慧门店，强烈建议将 Chrome 设为默认浏览器。</h3>
+      <div id="chromeSettingSteps"></div>
+    </div>
+  </body>
+  <script><%= htmlWebpackPlugin.options.inline[0] %></script>
+  <script><%= htmlWebpackPlugin.options.inline[1] %></script>
+  <script type="text/javascript">
+    init(detect())
+  </script>
+</html>

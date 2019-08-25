@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Service Ticket/service-ticket-item</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Service-Ticket/service-ticket-item" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g fill="#444444" fill-rule="nonzero" id="Shape">
+            <path d="M16.4,4.075 L9.4,1.075 C9.1,0.975 8.9,0.975 8.6,1.075 L1.6,4.075 C1.2,4.175 1,4.575 1,4.975 L1,12.975 C1,13.375 1.2,13.775 1.6,13.875 L8.6,16.875 C8.7,16.975 8.9,16.975 9,16.975 C9.1,16.975 9.3,16.975 9.4,16.875 L16.4,13.875 C16.8,13.675 17,13.375 17,12.975 L17,4.975 C17,4.575 16.8,4.175 16.4,4.075 Z M9,3.075 L13.5,4.975 L9,6.875 L4.5,4.975 L9,3.075 Z M3,6.475 L8,8.575 L8,14.375 L3,12.275 L3,6.475 Z M10,14.475 L10,8.675 L15,6.575 L15,12.375 L10,14.475 Z"></path>
+        </g>
+    </g>
+</svg>

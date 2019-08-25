@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Maintenance Icons/antifreeze</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Maintenance-Icons/antifreeze">
+            <g>
+                <path d="M13,6 L13,8 L3,8 C2.44771525,8 2,8.44771525 2,9 L2,21 C2,21.5522847 2.44771525,22 3,22 L19,22 C19.5522847,22 20,21.5522847 20,21 L20,14 L22,14 L22,21 C22,22.6568542 20.6568542,24 19,24 L3,24 C1.34314575,24 3.33066907e-16,22.6568542 0,21 L0,9 C-1.66533454e-16,7.34314575 1.34314575,6 3,6 L13,6 Z" id="Combined-Shape" fill="#303030" fill-rule="nonzero"></path>
+                <path d="M3,3 L11,3" id="Shape" stroke="#303030" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M5,6 L5,3" id="Shape" stroke="#303030" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M9,6 L9,3" id="Shape" stroke="#303030" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M15,9 C15,6 18,3 18,3 C18,3 21,6 21,9 C21,10.6568542 19.6568542,12 18,12 C16.3431458,12 15,10.6568542 15,9 Z" id="Shape" stroke="#303030" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M17.9883641,15.0008043 C15.6931689,15.0183432 15.6779483,16.4543118 13.3545891,16.4543118 C11.016968,16.4543118 11.016968,15 8.67934693,15 C6.52455287,15 6.35601762,16.4042623 4.51192764,16.6239171 L4,16.6242883 C4,16.6242883 4.0102769,19.2724257 4.01069636,19.5612775 C4.0112057,19.9376075 4.27918422,20.0002467 4.46060303,19.9999993 C4.57080259,19.9998446 17.5041212,19.9827078 17.5821118,19.982615 C17.907647,19.982151 17.9887836,19.7981928 17.9883941,19.5076398 C17.9882742,19.4196356 17.986896,16.9875028 17.9867162,16.6526847 L17.9883941,16.6526847 L17.988394,15.0008043 L17.9883641,15.0008043 Z" id="Shape" fill="#303030" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>wechat-service</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Settings" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="设置-微信授权-列表" transform="translate(-476.000000, -301.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Group-3" transform="translate(436.000000, 253.000000)">
+                <g id="row" transform="translate(24.000000, 32.000000)">
+                    <g id="wechat-service">
+                        <g transform="translate(16.000000, 16.000000)" id="Shape">
+                            <path d="M23.8086761,9.73278073 C23.8086761,4.45664825 20.4008991,1 16.0392962,1 C11.7480418,1 8.23062012,4.02498265 8.23062012,9.30111512 C8.23062012,15.5621257 12.4515261,17.2504881 12.4515261,19.9237285 C12.4515261,24.2853314 1,24.4434952 1,28.6644011 C1,30.9791819 4.69741474,30.4759935 4.69741474,30.4759935 L27.3811777,30.4759935 C28.8584948,30.4759935 31,30.6102486 31,28.6644011 C30.9296516,24.4434952 19.6270663,24.2853314 19.6270663,19.9237285 C19.6270663,17.2504881 23.8086761,15.9937913 23.8086761,9.73278073 Z M16.0392962,28.928328 L13.7177979,25.8329969 L15.2654634,20.4161676 L16.813129,20.4161676 L18.3607945,25.8329969 L16.0392962,28.928328 Z"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

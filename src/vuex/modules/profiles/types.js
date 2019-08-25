@@ -1,0 +1,7 @@
+export const REFRESH_STAFF = 'messages/REFRESH_STAFF'
+export const REFRESH_STORES = 'messages/REFRESH_STORES'
+export const REFRESH_INSURANCES = 'messages/REFRESH_INSURANCES'
+export const REFRESH_BRANDS = 'messages/REFRESH_BRANDS'
+export const REFRESH_SALES_ASSISTANT = 'messages/REFRESH_SALES_ASSISTANT'
+export const REFRESH_MECHANIC = 'messages/REFRESH_MECHANIC'
+export const REFRESH_SHOP_CATEGORIES = 'messages/REFRESH_SHOP_CATEGORIES'

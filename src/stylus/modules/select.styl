@@ -1,0 +1,159 @@
+@import '~@/stylus/mixins'
+
+border-radius = 2px
+background-white = #fff
+text-color = #353535
+font-size = 13px
+line-height = 16px
+.custom-select
+  // width 160px
+  position relative
+.custom-select-area
+  position relative
+  width 100%
+  color text-color
+  &.is-error
+    input.custom-select-input
+      border-color errorBorderColor
+      padding-right 38px
+    .error-icon
+      width 14px
+      height 14px
+      background getImage('form/input-error.svg') no-repeat center center
+      position absolute
+      right 32px
+      top 50%
+      margin-top -7px
+      cursor pointer
+      border-radius 100%
+      &:hover
+        + .error-info
+          display block
+    .error-info
+      display none
+      position absolute
+      font-size 12px
+      line-height 16px
+      padding 4px 8px
+      color #ffffff
+      background #414141
+      border-radius borderRadius
+      right 18px
+      top -20px
+      user-select none
+      &:after
+        content ''
+        display block
+        width 8px
+        height 8px
+        background #414141
+        position absolute
+        transform rotateZ(45deg)
+        bottom -2px
+        right 17px
+    &:hover
+      .custom-select-arrow
+        border-color #999 transparent
+  &.is-disabled
+    .custom-select-input
+      background #fafafa
+      border 1px solid #ddd
+    &:hover
+      .custom-select-arrow
+        border-color #999 transparent
+  &:hover
+    border-color #c2c2c2
+    .custom-select-arrow
+      border-color #ffbb29 transparent
+.custom-select-input
+  padding 7px 31px 7px 12px
+  background background-white
+  border 1px solid #ccc
+  border-radius border-radius
+  color text-color
+  height 32px
+  cursor pointer
+  box-sizing border-box
+  width 100%
+  font-size font-size
+  line-height line-height
+  &::placeholder
+    color #b2b2b2
+.custom-select-search
+  padding 7px 0 7px 12px
+.shelves-filter
+  .custom-select-input
+    border: none
+    box-shadow 0 1px 2px 0 rgba(0,0,0,0.05)
+.custom-select-arrow
+  position absolute
+  top 14px
+  right 12px
+  border-width 5px 5px 0
+  border-style dashed dashed solid
+  border-color #999 transparent
+
+.custom-select-list
+  width 100%
+  background background-white
+  border-radius border-radius
+  box-shadow 0 4px 12px 0 rgba(0, 0, 0, .10)
+  box-sizing border-box
+  padding 8px 0
+  position absolute
+  left 0
+  top 100%
+  z-index 20
+  max-height 176px
+  overflow-y auto
+  .custom-select-item
+    width 100%
+    height 32px
+    box-sizing border-box
+    padding 8px 31px 8px 12px
+    cursor pointer
+    position relative
+    font-size font-size
+    line-height line-height
+    white-space nowrap
+    overflow hidden
+    text-overflow ellipsis
+    &::after
+      display block
+      content ''
+      position absolute
+      width 3px
+      height 6px
+      border 2px solid #ffbb29
+      border-top none
+      border-left none
+      top 11px
+      right 14px
+      transform rotate(45deg)
+      display none
+    &.selected
+      &::after
+        display block
+    &:hover
+      background #f5f5f7
+
+color-square(borderColor, boxShadowRgba, bgColor)
+  width 8px
+  height 8px
+  border-radius border-radius
+  border 1px solid borderColor
+  box-shadow 0 1px 3px 0 boxShadowRgba
+  background bgColor
+  display inline-block
+  margin-right 8px
+  margin-top 4px
+.color-square-green
+  color-square(#09bb07, rgba(47, 207, 45, .30), #2fcf2d)
+.color-square-blue
+  color-square(#4fb9fa, rgba(83, 190, 255 .30), #53beff)
+.color-square-orange
+  color-square(#f6a824, rgba(255, 199, 35, .30), #ffbb29)
+.color-square-grey
+  color-square(#b0b1bc, rgba(161, 163, 171, .30), #babbc1)
+.color-square-red
+  color-square(#f4381e, rgba(244, 56, 30, .30), #ff5c45)

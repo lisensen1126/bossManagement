@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>icons/user-info</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="快捷洗车" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="营销工具" transform="translate(-212.000000, -100.000000)">
+            <g id="Group" transform="translate(192.000000, 80.000000)">
+                <g id="Content">
+                    <g id="icons/user-info" transform="translate(20.000000, 20.000000)">
+                        <rect id="Rectangle-path" x="0" y="0" width="16" height="16"></rect>
+                        <path d="M10.2,10.4044454 L7.5,8.40444541 C8.4,7.70444541 9,6.70444541 9,5.50444541 L9,4.70444541 C9,2.80444541 7.6,1.10444541 5.7,1.00444541 C3.7,0.904445411 2,2.50444541 2,4.50444541 L2,5.50444541 C2,6.70444541 2.6,7.70444541 3.5,8.40444541 L0.8,10.5044454 C0.3,10.9044454 0,11.5044454 0,12.1044454 L0,14.0044454 C0,14.6044454 0.4,15.0044454 1,15.0044454 L10,15.0044454 C10.6,15.0044454 11,14.6044454 11,14.0044454 L11,12.0044454 C11,11.4044454 10.7,10.8044454 10.2,10.4044454 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                        <rect id="Rectangle-4" fill="#FFFFFF" x="12" y="3" width="4" height="2" rx="1"></rect>
+                        <rect id="Rectangle-4" fill="#FFFFFF" x="12" y="7" width="4" height="2" rx="1"></rect>
+                        <rect id="Rectangle-4" fill="#FFFFFF" x="13" y="11" width="3" height="2" rx="1"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Menu/outlink</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="工作台-72小时预约" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-493.000000, -20.000000)">
+        <g id="Topbar" transform="translate(152.000000, 0.000000)" fill="#DDDDDD" fill-rule="nonzero">
+            <g id="Menu/Imte" transform="translate(170.000000, 16.000000)">
+                <g id="Menu/outlink" transform="translate(171.000000, 4.000000)">
+                    <polygon id="Shape" points="15 1 9 1 11.293 3.293 6.293 8.293 7.707 9.707 12.707 4.707 15 7"></polygon>
+                    <path d="M14,15 L2,15 C1.448,15 1,14.552 1,14 L1,2 C1,1.448 1.448,1 2,1 L8,1 L8,3 L3,3 L3,13 L13,13 L13,8 L15,8 L15,14 C15,14.552 14.552,15 14,15 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Modal/success</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFBD39" offset="0%"></stop>
+            <stop stop-color="#FFD762" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Style#1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-608.000000, -4451.000000)">
+        <g id="Alert" transform="translate(480.000000, 4420.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="Head" transform="translate(105.000000, 31.000000)">
+                <g id="Modal/success" transform="translate(23.000000, 0.000000)">
+                    <path d="M32,1 C49.093,1 63,14.907 63,32 C63,49.093 49.093,63 32,63 C14.907,63 1,49.093 1,32 C1,14.907 14.907,1 32,1 Z M46,21 C38.75,24.125 32.003,29.56 27,35 L20,30 L17,33 L27,44 C31.562,35.938 37.75,27.875 47,23 L46,21 Z" id="Combined-Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

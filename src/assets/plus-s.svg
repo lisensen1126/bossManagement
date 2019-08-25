@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>plus-s</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Style#2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-106.000000, -2699.000000)">
+        <g id="Add" transform="translate(99.000000, 2692.000000)" fill="#FFFFFF">
+            <g id="plus-s" transform="translate(7.000000, 7.000000)">
+                <path d="M4,4 L4,1.89882152e-15 L6,1.77635684e-15 L6,4 L10,4 L10,6 L6,6 L6,10 L4,10 L4,6 L0,6 L0,4 L4,4 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

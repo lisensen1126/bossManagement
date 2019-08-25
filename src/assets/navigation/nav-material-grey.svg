@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>形状</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="nav-material-gray-2" fill="#ABB9C9" fill-rule="nonzero">
+            <path d="M14.44,4.07361963 L8,1.4396728 L1.56,4.07361963 L8,6.70756646 L14.44,4.07361963 Z M16,3.43558282 L16,4.87525562 L8,8.14723926 L0,4.87525562 L0,3.43558282 L0,3.27198364 L8,-1.33226763e-15 L16,3.27198364 L16,3.43558282 Z M8,10.6339468 L16,7.36196319 L16,8.80163599 L8,12.0736196 L0,8.80163599 L0,7.36196319 L8,10.6339468 Z M8,14.5603272 L16,11.2883436 L16,12.7280164 L8,16 L0,12.7280164 L0,11.2883436 L8,14.5603272 Z" id="形状"></path>
+        </g>
+    </g>
+</svg>

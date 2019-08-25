@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>next</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Style#1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-706.000000, -3177.000000)">
+        <g id="Date-Pciker-with-Time" transform="translate(456.000000, 3160.000000)" fill="#B2B2B2" fill-rule="nonzero">
+            <g id="month-nav" transform="translate(16.000000, 12.000000)">
+                <g id="next" transform="translate(234.000000, 5.000000)">
+                    <polygon id="Shape" transform="translate(7.400000, 7.000000) scale(-1, 1) translate(-7.400000, -7.000000) " points="9.4 12.5 10.8 11.0740741 6.8 7 10.8 2.92592593 9.4 1.5 4 7"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

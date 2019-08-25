@@ -1,0 +1,49 @@
+.workbench-table
+  border-spacing 0
+.workbench-table thead tr
+  height 50px
+  font-size 12px
+  color lightGrey
+  background-color #fff
+
+.workbench-table tbody tr:hover
+  background-color #f7f8f9
+  box-shadow none
+.workbench-table tbody tr:last-child td::after
+  display none
+.workbench-table tr td
+  position relative
+  &::after
+    content ''
+    position absolute
+    bottom 0
+    left 0
+    width 100%
+    border-top 1px solid line
+  &:first-child
+    padding-left 24px
+    &::after
+      left 24px
+  &:last-child
+    padding-right 24px
+    &::after
+      left auto
+      right 24px
+.workbench-table thead tr td
+  line-height 50px
+.workbench-table 
+  padding 16px 0
+
+.workbench-table-wrapper
+  flex-grow 0
+.workbench-table
+  tr
+    &:first-child
+      .simple-td-ranking
+         background url('~@/assets/archive/leaderboard_no1.svg') no-repeat center left
+    &:nth-child(2)
+      .simple-td-ranking
+         background url('~@/assets/archive/leaderboard_no2.svg') no-repeat center left
+    &:nth-child(3)
+      .simple-td-ranking
+         background url('~@/assets/archive/leaderboard_no3.svg') no-repeat center left

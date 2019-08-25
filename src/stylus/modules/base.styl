@@ -1,0 +1,49 @@
+// Import after any reset stylesheets, common classes
+hr
+  text-align left
+  margin-left 0
+
+html
+body
+  height 100%
+
+html
+  background #cccccc
+
+.hidden
+  float left
+  width 0
+  height 0
+  overflow hidden
+.hiddenText
+  // parent node should be wider
+  text-indent 100%
+  white-space nowrap
+  overflow hidden
+
+// Noto Sans，微软雅黑（Windows），冬青黑体简体中文（Mac OS），文泉驿微米黑（Linux），华文黑体（Mac OS），华文细黑（earlier versions of Windows with Microsoft Office），黑体（Windows）
+// about typeface selecting
+// http://www.zhihu.com/question/19605671
+// http://www.guokr.com/post/462465/
+.sans
+.sans input
+.sans select
+.sans button
+.sans textarea
+  font-family 'PingFangSC', 'NotoSansHans', 'Microsoft Yahei', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', STHeiti, '\534E\6587\7EC6\9ED1', SimHei, Helvetica, Arial, sans-serif
+// less than 14px, replace SimHei with SimSun
+.smallSans
+.smallSans input
+.smallSans select
+.smallSans button
+.smallSans textarea
+  font-family 'PingFangSC', 'NotoSansHans', 'Microsoft Yahei', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', STHeiti, '\534E\6587\7EC6\9ED1', SimSun, Helvetica, Arial, sans-serif
+
+.clearfix:before
+.clearfix:after
+  content ' '
+  display table
+.clearfix:after
+  clear both
+.clearfix
+  zoom 1

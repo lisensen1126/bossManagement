@@ -1,0 +1,580 @@
+input
+button
+select
+textarea
+  outline none
+
+// input[text]相关样式
+.control
+  position relative
+  &.is-disabled
+  &.disabled
+    textarea.textarea
+      background #fafafa
+      border-color disableBorderColor
+      &:disabled
+        &:hover
+        &:focus
+          box-shadow none
+    input.input
+      background #fafafa
+      border-color disableBorderColor
+      &:disabled
+        &:hover
+        &:focus
+          box-shadow none
+  &.is-error
+    input.input
+      border-color errorBorderColor
+      padding-right 38px
+    .error-icon
+      width 14px
+      height 14px
+      background getImage('form/input-error.svg') no-repeat center center
+      position absolute
+      right 14px
+      top 50%
+      margin-top -7px
+      cursor pointer
+      border-radius 100%
+      &:after
+        content ''
+        display none
+        width 8px
+        height 8px
+        background #414141
+        position absolute
+        transform rotateZ(45deg)
+        bottom 14px
+        left 50%
+        margin-left -4px
+      &:hover
+        + .error-info
+          display block
+        &:after
+          display block
+    .error-info
+      display none
+      position absolute
+      font-size 12px
+      line-height 16px
+      padding 4px 8px
+      color #ffffff
+      background #414141
+      border-radius borderRadius
+      right 0
+      bottom 25px
+      user-select none
+  &.has-count
+    input.input
+      padding-right 54px
+    .count-info
+      position absolute
+      font-size 13px
+      line-height 16px
+      right 12px
+      top 9px
+      color placeholder
+  &.has-unit
+    input.input
+      padding-right 42px
+    .unit-info
+      font-size 13px
+      position absolute
+      right 0
+      top 0
+      text-align center
+      // width 32px
+      height 30px
+      top 1px
+      right 1px
+      line-height 30px
+      background #fdfdfd
+      color lightGrey
+      border-left 1px solid #cccccc
+      padding 0 8px
+      color lightGrey
+  &.has-icon-label
+    input.input
+      padding-left 36px
+    .icon-label
+      position absolute
+      left 12px
+      top 50%
+      transform translateY(-50%)
+      width 16px
+      height 16px
+      background center no-repeat
+      background-size 16px
+  &.is-with-plus
+    input.input
+      padding-right 34px
+      overflow hidden
+      white-space no-wrap
+      text-overflow ellipsis
+    .error-icon
+      right 32px
+.control-line
+  width 1px
+  height 10px
+  background rgba(0,0,0,0.08)
+.control-line-primary
+  width 2px
+  height 14px
+  background primary
+textarea.textarea
+input.input
+  box-sizing border-box
+  width 100%
+  font-size 13px
+  line-height 16px
+  padding 7px 12px
+  border-radius borderRadius
+  border 1px solid borderColor
+  color darker
+  caret-color primary
+  &::placeholder
+    color placeholder
+  &:hover
+  &:focus
+    box-shadow 0 2px 4px 0 rgba(0,0,0,0.06)
+.shelves-filter
+  input.input
+    padding 8px 12px
+    border: none
+    box-shadow 0 2px 4px 0 rgba(0,0,0,0.05)
+  .button
+    box-shadow 0 2px 4px 0 rgba(0,0,0,0.05)
+    &.primary
+      box-shadow 0 2px 4px 0 rgba(0,0,0,0.05)
+
+textarea.textarea
+  line-height 18px
+  resize none
+
+// 按钮
+.button-group
+  .button + .button
+    margin-left 16px
+.button
+  border 1px solid disableBorderColor
+  min-width 56px
+  padding 0 14px
+  cursor pointer
+  background #ffffff
+  height 32px
+  font-size 13px
+  line-height 32px
+  display inline-flex
+  justify-content center
+  vertical-align middle
+  color darkGrey
+  border-radius 3px
+  box-shadow 0 1px 2px 0 rgba(0, 0, 0,.05)
+  user-select none
+  position relative
+  top 0
+  &.large
+    height 40px
+    padding 0 15px
+    font-size 16px
+    line-height 40px
+  &.primary
+    color standblack
+    background mediumYellow
+    border: none
+    box-shadow 0 2px 4px 0 rgba(0, 0, 0, 0.08)
+    &:hover
+      box-shadow 0 2px 6px 0 rgba(255, 199, 35, 0.40)
+      background primary
+      color standblack
+    &:active
+      background #efac1b
+      color standblack
+      box-shadow none
+  &.primary-sp
+    font-weight bold
+    padding 0 24px
+    font-size 14px
+    box-shadow 0 2px 2px 0 rgba(255, 199, 35,0.30), 0 1px 5px 0 rgba(0, 0, 0, 0.08);
+  &.small-radius
+    border-radius 2px
+  &:hover
+    box-shadow 0 2px 8px 0 rgba(0, 0, 0, .05)
+    color standblack
+    top -1px
+  &:active
+    background: #F8F8F8
+    color standblack
+    box-shadow none
+  &.disabled
+  &.disabled.primary
+    background #f1f1f1
+    border none
+    box-shadow none
+    color placeholder
+    cursor not-allowed
+    &:hover
+      box-shadow none
+      border none
+      color placeholder
+      top 0
+    &:active
+      background: #f1f1f1
+      border none
+      color placeholder
+      box-shadow none
+.button-default
+  display inline-flex
+  justify-content center
+  vertical-align middle
+  background rgba(255,255,255,.1)
+  border 1px solid #ddd
+  border-radius 2px
+  line-height 32px
+  padding 0 8px
+  color #fff
+  font-size: 12px
+  &:hover
+    color #fff
+    background rgba(255,255,255,.2)
+
+// label
+label
+  &.label
+    font-size 12px
+    line-height 16px
+    color darkGrey
+    margin-bottom 6px
+    display block
+  &.label-large
+    font-size 13px
+    color darker
+    font-weight bold
+
+//默认field
+.field-group
+  display flex
+  flex-direction column
+  .field + .field
+    margin-top 24px
+  &.is-horizontal
+    flex-direction row
+    .field + .field
+      align-self flex-end
+      margin-top 0
+      margin-left 16px
+    .field + .field.date-wrapper-noMargin
+       margin-left 0
+    .field + .field.to
+      margin-left 0
+      color placeholder
+      padding 0 4px
+      line-height 32px
+
+.field
+  flex-direction row
+  &.is-horizontal
+    display flex
+    flex-direction row
+    align-items center
+    .label
+      align-self flex-start
+      flex 0 0 88px
+      margin-top 8px
+      margin-right 32px
+      position relative
+    .control
+      flex-grow 1
+    .must:before
+      content '*'
+      color #f56c6c
+      position absolute
+      left -15px
+      top 3px
+      font-size 15px
+// radio switch and Checkbox
+.radio
+.checkbox
+.switch
+  vertical-align middle
+  label
+    user-select none
+
+.radio
+.checkbox
+  position relative
+  display inline-flex
+  height 16px
+  cursor pointer
+  label
+    padding-left 20px
+    cursor pointer
+    font-size 13px
+    line-height 16px
+
+.checkbox input[type="checkbox"]
+.radio input[type="radio"]
+  outline none !important
+  cursor pointer
+  position absolute
+  width 16px
+  height 16px
+  left 0
+  top 0
+  margin 0
+  z-index 2
+  opacity 0
+
+.radio-group
+  .radio + .radio
+    margin-left: 10px
+.checkbox-group
+  .checkbox + .checkbox
+    margin-left: 10px
+.switch-group
+  .switch + .switch
+    margin-left: 10px
+
+.radio
+  input[type="radio"]
+    &:hover
+      &+label
+        &::before
+          border 1px solid primary
+    &:checked
+      &+label
+        &::before
+          border 5px solid mediumYellow
+      &:hover
+        &+label
+          &::before
+            border-color primary
+  label
+    &::before
+      content ''
+      display block
+      background #ffffff
+      width 16px
+      height 16px
+      border 1px solid #cccccc
+      border-radius 100%
+      position absolute
+      z-index 1
+      left 0
+      top 0
+      box-sizing border-box
+
+  &.disabled
+    pointer-events: none
+    opacity 0.5
+    label
+      &:before
+        background #fafafa
+    input
+      &[type="radio"]
+        &:hover
+          &+label
+            &::before
+              border 1px solid primary
+        &:checked
+          &+label
+            &::before
+              border-color mediumYellow
+
+// checkbox
+.checkbox
+  input[type="checkbox"]
+    &:hover
+      &+label
+        &::before
+          border 1px solid primary
+    &:checked
+      &+label
+        &::before
+          background getImage('form/check-white.svg') no-repeat center center
+          background-color mediumYellow
+          border none
+      &:hover
+        &+label
+          &::before
+            background-color primary
+  label
+    &::before
+      content ''
+      display block
+      background #ffffff
+      width 16px
+      height 16px
+      border 1px solid #cccccc
+      border-radius 1px
+      position absolute
+      z-index 1
+      left 0
+      top 0
+      box-sizing border-box
+  &.disabled
+    pointer-events: none
+    opacity 0.5
+    label
+      &:before
+        background #fafafa
+    input
+      &[type="checkbox"]
+        &:hover
+          &+label
+            &::before
+              border 1px solid primary
+        &:checked
+          &+label
+            &::before
+              background-color mediumYellow
+
+.switch
+  display inline-flex
+  position: relative
+  input[type="checkbox"]
+    width 36px
+    height 20px
+    opacity 0
+    position relative
+    margin 0
+    &:checked
+      &+label
+        &:after
+          left 19px
+        &:before
+          background mediumYellow
+        &:hover
+          &:before
+            background primary
+  label
+    width 36px
+    height 20px
+    position absolute
+    cursor pointer
+    &:hover
+      &:before
+        background #d4d4d4
+    &:before
+      content ''
+      display block
+      transition background ease-out .1s
+      position absolute
+      width 100%
+      height 100%
+      top 0
+      border-radius 2px
+      background disableBorderColor
+    &:after
+      content ''
+      display block
+      position absolute
+      transition left ease-out .1s
+      width 14px
+      height 14px
+      background #fff
+      left 2px
+      top 50%
+      border-radius 2px
+      margin-top -7px
+  &.disabled
+    pointer-events: none
+    label
+      &:before
+        opacity: 0.5
+
+// addbutton
+.add-button
+  display block
+  width 40px
+  height 40px
+  background mediumYellow center url('~@/assets/plus-l.svg') no-repeat
+  background-size 16px
+  border-radius 20px
+  position relative
+  line-height 34px
+  text-align center
+  font-size 30px
+  cursor pointer
+  user-select none
+  &:hover
+    background-color primary
+  &.is-small
+    width 24px
+    height 24px
+    font-size 20px
+    line-height 22px
+    background-image url('~@/assets/plus-l.svg')
+    background-size 10px
+
+//toggle-btn
+toggleBtnBorder = #ccc
+toggleCheckedBtnBorder = #ffc723
+toggleCheckedBtn = rgba(255,199,35,0.20)
+
+.toggle-group
+  .toggle-btns + .toggle-btns
+  .multiple-toggle-btns + .multiple-toggle-btns
+    margin-left 8px
+
+.toggle-btns
+.multiple-toggle-btns
+  &.disabled
+    opacity 0.5
+    pointer-events none
+  display inline-flex
+  position relative
+  text-align center
+  input[type="radio"]
+  input[type="checkbox"]
+    position absolute
+    display none
+    &:checked
+      &+label
+        color darker
+        border-color toggleCheckedBtnBorder
+        background toggleCheckedBtn
+        &:hover
+          box-shadow 0 0px 6px 0 rgba(255,199,35,0.40)
+  input[type="checkbox"]
+    &:checked
+      &+label::before
+        content ''
+        display block
+        position absolute
+        left 0
+        top 0
+        width 12px
+        height 12px
+        background getImage('form/check-white.svg') no-repeat center center
+        background-color mediumYellow
+  label
+    position relative
+    overflow hidden
+    user-select none
+    border-radius 2px
+    cursor pointer
+    height 32px
+    font-size 13px
+    color lightGrey
+    line-height 32px
+    border 1px solid toggleBtnBorder
+    &:hover
+      box-shadow 0 0px 8px 0 rgba(0,0,0,0.05)
+    .icon
+      padding-left 16px
+      margin-right 10px
+    &:hover
+      color grey
+  &.is-normal
+    label
+      width 96px
+  &.is-middle
+    label
+      width 78px
+  &.is-small
+    label
+      height 24px
+      line-height 24px
+

@@ -1,0 +1,277 @@
+.table-wrapper
+  flex-grow 1
+  overflow-x hidden
+  overflow-y auto
+
+// table style
+.table
+  width 100%
+  border-collapse separate
+  border-spacing 0 8px
+  &.fixed
+    table-layout fixed
+
+.table td
+  font-size 13px
+  line-height 36px
+  vertical-align top
+  &.is-end
+    &:last-child
+      padding-right 13px
+      text-align right
+
+// tr style
+.table thead tr
+  background-color standBackground
+  color lightGrey
+  text-align left
+  font-size 12px
+  line-height 32px
+  td:first-child
+    padding-left 14px
+.table tbody tr
+  background-color #fff
+  &:hover
+    box-shadow 0 2px 8px 0 rgba(0, 0, 0, .08)
+    td:first-child
+      border-left 2px solid primary
+
+// td style
+.table tbody tr td
+  position relative
+  color darker
+  font-size 13px
+  padding 14px 0
+  &:first-child
+    border-left 2px solid transparent
+    padding-left 13px
+  .simple-td
+  .has-image
+  .td-content-wrapper
+    box-sizing border-box
+    width 100%
+
+// td styles
+.simple-td
+  position relative
+  text-overflow ellipsis
+  overflow hidden
+  white-space nowrap
+  &.has-image
+    padding-left 48px
+    &.small
+      padding-left 36px
+  &.is-flex
+    display flex
+    align-items center
+  &.is-end
+    justify-content flex-end
+    padding-right 8px
+  .content-item
+    font-size 13px
+    .is-bold
+      color darker
+      font-weight bold
+    .is-normal
+      position relative
+      color lightGrey
+      margin-right 16px
+      &::after
+        content ''
+        display block
+        position absolute
+        width 1px
+        height 12px
+        top 3px
+        right -16px
+        background rgba(0, 0, 0, .08)
+    .has-margin-left
+      margin-left 16px
+.label-item
+.content-item
+  text-overflow ellipsis
+  overflow hidden
+  white-space nowrap
+
+.multi-content-td
+  position relative
+  display inline-block
+  vertical-align top
+  line-height 18px
+  &.has-image
+    padding-left 48px
+  .sub-content-item
+    font-size 12px
+    color lightGrey
+  .content-item
+    font-size 13px
+.average-rating
+  color primary
+
+.left-image
+  position absolute
+  top 0
+  left 0
+  width 36px
+  height 36px
+  border-radius borderRadius
+  // background-color placeholder
+  overflow hidden
+  img
+    width 100%
+    height 100%
+  &.small
+    width 24px
+    height 24px
+  &.round
+    border-radius 100%
+  &.inline
+    position relative
+    display inline-block
+    vertical-align top
+    margin-right 6px
+    width 16px
+    height 16px
+    border-radius 100%
+    background-color placeholder
+
+.workbench-table
+  border-spacing 0
+.workbench-table thead tr
+  height 50px
+  font-size 12px
+  color lightGrey
+  background-color #fff
+
+.content-divider
+  display inline-block
+  vertical-align top
+  font-size 24px
+  &::after
+    content '/'
+    padding 0 6px
+    color disableBorderColor
+    opacity .4
+  &.inline
+    display inline
+    &::after
+      content '/'
+      font-size 13px
+      padding 0 4px
+      color disableBorderColor
+      opacity 1
+
+.operation-td
+  &.multi-line
+    padding-top 6px
+    line-height 16px
+  .operation-divider
+    padding-right 16px
+    border-left 1px solid rgba(0, 0, 0, .06)
+  .operation-link
+    display inline-block
+    padding-right 12px
+    color link
+    cursor pointer
+    &:hover
+      color linkhover
+    &.delete
+      color placeholder
+      &:hover
+        color error
+    &.danger
+      color error
+
+.conflict-row-divider
+  border-top 1px solid rgba(0, 0, 0, .06)
+  margin 14px 0
+  .slim &
+    margin 6px 0
+
+.table tbody tr.conflict-row td:first-child
+  border-left 2px solid error
+.conflict-tip
+  position absolute
+  left 14px
+  bottom 14px
+  display block
+  width 100px
+  padding-left 24px
+  color error
+  &::before
+    content ''
+    position absolute
+    left 0
+    top 50%
+    transform translateY(-50%)
+    width 16px
+    height 16px
+    background center no-repeat url('~@/assets/form/input-error.svg')
+    background-size 16px
+.operation-td
+  .operation-link
+  .operation-divider
+    margin-right 12px
+    padding-right 0
+
+// tfoot style
+.tfoot
+  position absolute
+  bottom 0
+  left 0
+  width 100%
+  height 36px
+
+// slim table style
+.table.slim tbody tr td
+  padding 6px 0
+
+// embedded table style
+.table.embedded
+  border-collapse collapse
+  border-spacing 0
+  & td
+    padding 16px 0
+    font-size 13px
+    line-height 16px
+    border-bottom 1px solid line
+  & thead tr
+    background-color #fff
+    td
+      padding-top 24px
+    td:first-child
+      padding-left 0
+  & tbody tr
+    &.has-image
+      td
+        line-height 36px
+      &.small
+        td
+          line-height 24px
+    &:hover
+      box-shadow none
+  & tbody tr td
+    position relative
+    color darker
+    font-size 13px
+    &:first-child
+      border-left none
+      padding-left 0
+
+.no-identity
+  width 36px
+  height 36px
+  background #f7f7fa url('~@/assets/car-front.svg') no-repeat center
+  &.large
+    width 40px
+    height 40px
+.no-identity-vehicle-name
+  display inline-block
+  background  rgba(255, 74, 74, .1)
+  border-radius 2px
+  height 18px
+  line-height 18px
+  padding 0 4px
+  font-size 12px
+  font-weight bold
+  color #ff4a4a

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>icons/full-inspection-grey</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="199" height="32" rx="2"></rect>
+        <filter x="-3.5%" y="-15.6%" width="107.0%" height="143.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="0" y="0" width="16" height="16"></rect>
+        <rect id="path-5" x="0" y="0" width="16" height="16"></rect>
+    </defs>
+    <g id="Settings" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="设置-车检项目" transform="translate(-1213.000000, -100.000000)">
+            <rect id="Rectangle-2" fill="#F0F1F2" x="0" y="0" width="1440" height="900"></rect>
+            <g id="Filter" transform="translate(152.000000, 56.000000)">
+                <rect id="Rectangle-4" fill="#E8E9EB" x="0" y="0" width="1288" height="88"></rect>
+                <g id="Button" transform="translate(1049.000000, 36.000000)">
+                    <g id="Rectangle-13">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="icons/full-inspection-grey" transform="translate(12.000000, 8.000000)">
+                        <g>
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <g id="nc-rect"></g>
+                            <g id="Group" mask="url(#mask-4)" fill="#CBCDD2" fill-rule="nonzero">
+                                <path d="M8,0 C3.589,0 0,3.589 0,8 C0,12.411 3.589,16 8,16 C12.411,16 16,12.411 16,8 C16,3.589 12.411,0 8,0 Z M13.91,9 L8.677,9 L6.929,4.628 L5.071,5.372 L6.523,9 L2.09,9 C2.035,8.674 2,8.341 2,8 C2,4.691 4.691,2 8,2 C11.309,2 14,4.691 14,8 C14,8.341 13.965,8.674 13.91,9 Z" id="Shape"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="icons/full-inspection-grey" transform="translate(12.000000, 8.000000)">
+                        <mask id="mask-6" fill="white">
+                            <use xlink:href="#path-5"></use>
+                        </mask>
+                        <g id="nc-rect"></g>
+                        <g id="Group" mask="url(#mask-6)" fill="#CBCDD2" fill-rule="nonzero">
+                            <path d="M8,0 C3.589,0 0,3.589 0,8 C0,12.411 3.589,16 8,16 C12.411,16 16,12.411 16,8 C16,3.589 12.411,0 8,0 Z M13.91,9 L8.677,9 L6.929,4.628 L5.071,5.372 L6.523,9 L2.09,9 C2.035,8.674 2,8.341 2,8 C2,4.691 4.691,2 8,2 C11.309,2 14,4.691 14,8 C14,8.341 13.965,8.674 13.91,9 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

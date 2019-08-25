@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>icons/package</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="快捷洗车" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="营销工具" transform="translate(-212.000000, -1381.000000)">
+            <g id="Group" transform="translate(192.000000, 1361.000000)">
+                <g id="Content">
+                    <g id="icons/package" transform="translate(20.000000, 19.000000)">
+                        <rect id="Rectangle-path" x="0" y="1" width="16" height="16"></rect>
+                        <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" x="5" y="5" width="6" height="1"></rect>
+                        <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" x="5" y="8" width="6" height="1"></rect>
+                        <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" x="5" y="11" width="2" height="1"></rect>
+                        <polygon id="Shape" fill="#FFFFFF" fill-rule="nonzero" points="16 13 14 13 14 11 12 11 12 13 10 13 10 15 12 15 12 17 14 17 14 15 16 15"></polygon>
+                        <path d="M8,15 L3,15 L3,3 L13,3 L13,9 L15,9 L15,2 C15.0162218,1.73013663 14.9160853,1.46624806 14.7249186,1.2750814 C14.5337519,1.08391473 14.2698634,0.9837782 14,1 L2,1 C1.73013663,0.9837782 1.46624806,1.08391473 1.2750814,1.2750814 C1.08391473,1.46624806 0.9837782,1.73013663 1,2 L1,16 C0.9837782,16.2698634 1.08391473,16.5337519 1.2750814,16.7249186 C1.46624806,16.9160853 1.73013663,17.0162218 2,17 L8,17 L8,15 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

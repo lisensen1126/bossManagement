@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>icons/full-inspection-grey</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="16" height="16"></rect>
+        <rect id="path-3" x="0" y="0" width="16" height="16"></rect>
+    </defs>
+    <g id="工作台" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="预约核销-车检预约" transform="translate(-858.000000, -522.000000)">
+            <rect id="Rectangle-2" fill="#F0F1F2" x="0" y="0" width="1440" height="900"></rect>
+            <g id="Group-2" transform="translate(192.000000, 176.000000)">
+                <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="1208" height="717" rx="3"></rect>
+                <g id="Row" transform="translate(0.000000, 320.000000)">
+                    <rect id="Rectangle-17" fill="#FFFFFF" x="0" y="0" width="1208" height="68"></rect>
+                    <g id="icons/full-inspection-grey" transform="translate(666.000000, 26.000000)">
+                        <g>
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="nc-rect"></g>
+                            <g id="Group" mask="url(#mask-2)" fill="#CBCDD2" fill-rule="nonzero">
+                                <path d="M8,0 C3.589,0 0,3.589 0,8 C0,12.411 3.589,16 8,16 C12.411,16 16,12.411 16,8 C16,3.589 12.411,0 8,0 Z M13.91,9 L8.677,9 L6.929,4.628 L5.071,5.372 L6.523,9 L2.09,9 C2.035,8.674 2,8.341 2,8 C2,4.691 4.691,2 8,2 C11.309,2 14,4.691 14,8 C14,8.341 13.965,8.674 13.91,9 Z" id="Shape"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="icons/full-inspection-grey" transform="translate(666.000000, 26.000000)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g id="nc-rect"></g>
+                        <g id="Group" mask="url(#mask-4)" fill="#CBCDD2" fill-rule="nonzero">
+                            <path d="M8,0 C3.589,0 0,3.589 0,8 C0,12.411 3.589,16 8,16 C12.411,16 16,12.411 16,8 C16,3.589 12.411,0 8,0 Z M13.91,9 L8.677,9 L6.929,4.628 L5.071,5.372 L6.523,9 L2.09,9 C2.035,8.674 2,8.341 2,8 C2,4.691 4.691,2 8,2 C11.309,2 14,4.691 14,8 C14,8.341 13.965,8.674 13.91,9 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

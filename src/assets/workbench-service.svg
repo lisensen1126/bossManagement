@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Workbench/workbench-service</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="3.35220026%" y1="3.35220026%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#4AA4E9" offset="0%"></stop>
+            <stop stop-color="#5AB6FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="工作台-72小时预约" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-820.000000, -96.000000)">
+        <g id="Group-4" transform="translate(804.000000, 80.000000)">
+            <g id="Workbench/workbench-service" transform="translate(16.000000, 16.000000)">
+                <rect id="Rectangle-11" fill="url(#linearGradient-1)" x="0" y="0" width="48" height="48" rx="3"></rect>
+                <g transform="translate(12.000000, 12.000000)" id="Shape" stroke="#FFFFFF" stroke-linecap="square">
+                    <g>
+                        <path d="M20,12 C20,10.343 21.343,9 23,9 L23,4 L1,4 L1,9 C2.657,9 4,10.343 4,12 C4,13.657 2.657,15 1,15 L1,20 L23,20 L23,15 C21.343,15 20,13.657 20,12 Z" stroke-width="2" fill-opacity="0.2" fill="#FFFFFF"></path>
+                        <path d="M8,10 L16,10" stroke-width="2"></path>
+                        <path d="M8,14 L16,14" stroke-width="2"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

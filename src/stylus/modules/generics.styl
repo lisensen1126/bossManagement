@@ -1,0 +1,286 @@
+
+.isolated
+  margin-top 10px
+
+html
+body
+#app
+  height 100%
+
+#app
+  max-width 1920px
+  min-width 1024px
+  margin 0 auto
+
+// flex
+.is-flex-grow
+  flex-grow 1
+
+.flex-vertical
+  flex-direction row
+
+.columns
+  display flex
+  height 100%
+  flex-direction column
+  &.is-horizontal
+    flex-direction row
+  &.space-between
+    justify-content space-between
+  .column
+    flex-direction column
+    flex 1 1 auto
+    display flex
+    &.width-fixed
+      flex 0 0 320px
+      margin-right 16px
+      +media(standWidth)
+        flex-basis 288px
+        margin-right 8px
+
+.level
+  display flex
+  justify-content space-between
+  flex-shrink 0
+  .level-left
+  .level-center
+  .level-right
+    display flex
+
+.list-inline
+  display flex
+
+a
+  color link
+  cursor pointer
+  &:hover
+    color linkhover
+
+// status dot style
+.status-dot
+  display inline-block
+  margin-right 8px
+  width 8px
+  height 8px
+  border-radius borderRadius
+  &.green
+    background #2FCF2D
+    border 1px solid #09BB07
+    box-shadow 0 1px 3px 0 rgba(47, 207, 45, .3)
+  &.blue
+    background #53BEFF
+    border 1px solid #4FB9FA
+    box-shadow 0 1px 3px 0 rgba(83, 190, 255, .3)
+  &.primary
+    background #FFBB29
+    border 1px solid #F6A824
+    box-shadow 0 1px 3px 0 rgba(255, 199, 35, .3)
+  &.red
+    background #FF5C45
+    border 1px solid #F4381E
+    box-shadow 0 1px 3px 0 rgba(244, 56, 30, .3)
+  &.grey
+    background #BABBC1
+    border 1px solid #B0B1BC
+    box-shadow 0 1px 3px 0 rgba(161, 163, 171, .3)
+
+// workstation
+.workstation
+  position relative
+  width 36px
+  height 36px
+  border 1px solid disableBorderColor
+  border-top none
+  box-shadow 0 1px 1px 0 rgba(0, 0, 0, .05)
+  border-radius borderRadius
+  font-size 18px
+  line-height 36px
+  color dark
+  text-align center
+  overflow hidden
+  &::before
+    content ''
+    position absolute
+    top 0
+    left 0
+    width 100%
+    height 4px
+    background-image linear-gradient(45deg, #FFBD39 0%, #FFD762 100%)
+
+// rating
+.rate-star
+  display inline-block
+  margin-right 4px
+  width 10px
+  height 10px
+  background-color grey
+  &.active
+    background-color primary
+// tag
+.tag
+  display inline-block
+  margin 0 5px
+  // vertical-align middle
+  padding 0 4px
+  font-size 12px
+  line-height 16px
+  color #fff
+  background-color placeholder
+  border-radius borderRadius
+  &.primary
+    background-color primary
+
+// layout
+.section-layout
+  position relative
+  display flex
+  flex-direction column
+  flex-grow 1
+  background-color standBackground
+  min-height 0
+
+// margin-layout(operation-target)
+.operation-target-layout
+  background #fff
+  box-shadow 0 1px 0 0 rgba(0, 0, 0, .08)
+  border-radius 3px
+  margin 16px 40px
+  position relative
+  display flex
+  flex-direction column
+  flex-grow 1
+  min-height 0
+  &::before
+    content ''
+    position absolute
+    top 63px
+    left 0
+    width 100%
+    height 1px
+    background-image linear-gradient(-90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .1) 74%)
+  &::after
+    content ''
+    position absolute
+    top 0
+    right 37px
+    width 70px
+    height 89px
+    background url('~@/assets/archive/ranking-list-cover-bg-icon.svg') no-repeat
+
+.section-filter
+  background #e8e9eb
+  flex-grow 0
+  flex-shrink 0
+  height 88px
+  padding 14px 64px 20px
+  position relative
+  +media(maxWidth)
+    padding 14px 40px 20px
+  +media(mediumWidth)
+    padding 14px 32px 20px
+  +media(standWidth)
+    padding 14px 24px 20px
+  .add-button
+    z-index 3
+    position absolute
+    right 40px
+    bottom -20px
+    box-shadow 0 2px 2px 0 rgba(255, 199, 35, .3), 0 4px 12px 0 rgba(0, 0, 0, .08)
+.section-filter-schedule
+  background #e8e9e8
+  flex 0 0 auto
+  height auto
+  padding 12px 64px
+  position relative
+  +media(maxWidth)
+    padding 12px 40px
+  +media(mediumWidth)
+    padding 12px 32px
+  +media(standWidth)
+    padding 12px 24px
+.content-wrapper
+  position relative
+  display flex
+  flex-direction column
+  flex-grow 1
+  margin 0 64px
+  padding-top 24px
+  padding-bottom 24px
+  min-height 0
+  &.list-wrapper
+    padding-top 0
+    padding-bottom 36px
+    min-height 0
+  +media(maxWidth)
+    margin 0 40px
+  +media(mediumWidth)
+    margin 0 32px
+  +media(standWidth)
+    margin 0 24px
+    padding-bottom 16px
+
+// 服务icon
+.icon-washing
+  background-image url('~@/assets/items/washing-grey.svg')
+.icon-maintenance
+  background-image url('~@/assets/items/maintenance-grey.svg')
+.icon-beauty
+  background-image url('~@/assets/items/beauty-grey.svg')
+.icon-repair
+  background-image url('~@/assets/items/repair-grey.svg')
+.icon-service_package
+  background-image url('~@/assets/items/packages-grey.svg')
+.tab-item.is-active
+.toggle-btns input:checked + label
+.multiple-toggle-btns input:checked + label
+  .icon-washing
+    background-image url('~@/assets/items/washing-black.svg')
+  .icon-maintenance
+    background-image url('~@/assets/items/maintenance-black.svg')
+  .icon-beauty
+    background-image url('~@/assets/items/beauty-black.svg')
+  .icon-repair
+    background-image url('~@/assets/items/repair-black.svg')
+  .icon-service_package
+    background-image url('~@/assets/items/packages.svg')
+
+// 已下架标签
+.has-removed
+  font-size 12px
+  line-height 16px
+  color #ffffff
+  background mediumYellow
+  padding: 1px 4px
+  margin-right 4px
+  border-radius 2px
+
+.major-tabs-wrapper
+  position relative
+  margin-left 27px
+  height 56px
+.tab-item
+  margin-right 20px
+  display block
+  font-size 16px
+  line-height 56px
+  color lightGrey
+  position relative
+  transition all .1s
+  &:hover
+    color standblack
+  &:after
+    content ''
+    height 2px
+    width 0
+    display block
+    position absolute
+    transition width .2s
+  &.is-active
+    font-size 18px
+    color standblack
+    &:after
+      width 100%
+      bottom 0
+      left 50%
+      transform translateX(-50%)
+      background primary

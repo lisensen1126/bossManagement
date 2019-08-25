@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>icons/help</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="193" y="378" width="1208" height="736" rx="3"></rect>
+        <filter x="-2.6%" y="-3.8%" width="105.3%" height="108.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0823529412   0 0 0 0 0.0823529412   0 0 0 0 0.0980392157  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="7-27迭代" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="营销-参加活动" transform="translate(-717.000000, -542.000000)">
+            <rect fill="#E8E9EB" x="0" y="0" width="1440" height="1403"></rect>
+            <g id="Rectangle-15">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <g id="icons/help" transform="translate(717.000000, 542.000000)" fill="#CBCDD2">
+                <g id="Shape">
+                    <path d="M6,0 C2.7,0 0,2.7 0,6 C0,9.3 2.7,12 6,12 C9.3,12 12,9.3 12,6 C12,2.7 9.3,0 6,0 Z M6,9.75 C5.55,9.75 5.25,9.45 5.25,9 C5.25,8.55 5.55,8.25 6,8.25 C6.45,8.25 6.75,8.55 6.75,9 C6.75,9.45 6.45,9.75 6,9.75 Z M7.125,6.3 C6.75,6.525 6.75,6.6 6.75,6.75 L6.75,7.5 L5.25,7.5 L5.25,6.75 C5.25,5.775 5.85,5.325 6.3,5.025 C6.675,4.8 6.75,4.725 6.75,4.5 C6.75,4.05 6.45,3.75 6,3.75 C5.7,3.75 5.475,3.9 5.325,4.125 L4.95,4.8 L3.675,4.05 L4.05,3.375 C4.425,2.7 5.175,2.25 6,2.25 C7.275,2.25 8.25,3.225 8.25,4.5 C8.25,5.55 7.575,6 7.125,6.3 Z" fill-rule="nonzero"></path>
+                </g>
+            </g>
+            <g id="icons/help" transform="translate(717.000000, 542.000000)" fill="#CBCDD2" fill-rule="nonzero">
+                <path d="M6,0 C2.7,0 0,2.7 0,6 C0,9.3 2.7,12 6,12 C9.3,12 12,9.3 12,6 C12,2.7 9.3,0 6,0 Z M6,9.75 C5.55,9.75 5.25,9.45 5.25,9 C5.25,8.55 5.55,8.25 6,8.25 C6.45,8.25 6.75,8.55 6.75,9 C6.75,9.45 6.45,9.75 6,9.75 Z M7.125,6.3 C6.75,6.525 6.75,6.6 6.75,6.75 L6.75,7.5 L5.25,7.5 L5.25,6.75 C5.25,5.775 5.85,5.325 6.3,5.025 C6.675,4.8 6.75,4.725 6.75,4.5 C6.75,4.05 6.45,3.75 6,3.75 C5.7,3.75 5.475,3.9 5.325,4.125 L4.95,4.8 L3.675,4.05 L4.05,3.375 C4.425,2.7 5.175,2.25 6,2.25 C7.275,2.25 8.25,3.225 8.25,4.5 C8.25,5.55 7.575,6 7.125,6.3 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

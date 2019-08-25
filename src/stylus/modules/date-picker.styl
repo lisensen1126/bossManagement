@@ -1,0 +1,291 @@
+@import '~@/stylus/mixins.styl'
+
+.flatpickr-calendar
+  width 280px
+  &::before,
+  &::after
+    display none
+
+.flatpickr-month
+  padding 10px 20px 0
+  height 32px
+
+.flatpickr-prev-month, 
+.flatpickr-next-month
+  top 15px
+  width 14px
+  height 14px
+  background-size 100%
+  background-position center
+  svg
+    display none
+
+.flatpickr-prev-month
+  background-image url('~@/assets/calendar/prev.svg')
+  &:hover
+    background-image url('~@/assets/calendar/prev-hover.svg')
+
+.flatpickr-next-month
+  background-image url('~@/assets/calendar/next.svg')
+  &:hover
+    background-image url('~@/assets/calendar/next-hover.svg')
+
+.flatpickr-prev-month.flatpickr-prev-month,
+.flatpickr-next-month.flatpickr-prev-month
+  left 20px
+  margin-top -4px
+
+.flatpickr-prev-month.flatpickr-next-month,
+.flatpickr-next-month.flatpickr-next-month
+  right 20px
+  margin-top -4px
+
+.flatpickr-current-month
+  top 10px
+  height 22px
+  line-height 22px
+  font-size 14px
+
+  span.cur-month,
+  input.cur-year
+    font-weight normal
+    color darker
+
+  .numInputWrapper,
+  span.cur-month
+    position absolute
+    top 0
+  .numInputWrapper
+    right 46%
+    width 6.5ch
+    border-radius 3px
+  span.cur-month
+    left 54%
+    margin-left 0
+
+.numInputWrapper
+  &::after
+    content '/'
+    position absolute
+    right 0
+    top 0
+    display block
+    width 14px
+    height 22px
+    line-height 22px
+    font-size 14px
+    color #dfe1e7
+  &:hover
+    background-color hover
+    &::after
+      display none
+
+  span
+    padding 0
+    border none
+    width 12px
+    background-size 8px 5px
+    background-position center 
+    background-repeat no-repeat
+    &::after
+      display none
+    &:hover
+      background-color hover
+      background-size 8px 5px
+      background-position center 
+      background-repeat no-repeat
+
+  .arrowUp
+    background-image url('~@/assets/calendar/number-up.svg')
+    &:hover
+      background-image url('~@/assets/calendar/number-up-hover.svg')
+  .arrowDown
+    background-image url('~@/assets/calendar/number-down.svg')
+    &:hover
+      background-image url('~@/assets/calendar/number-down-hover.svg')
+
+.flatpickr-weekdays
+  padding 0 16px
+  border-bottom 1px solid #e4e7ea
+  width auto
+
+span.flatpickr-weekday
+  font-size 12px
+  line-height 18px
+  height 28px
+  padding 5px 0
+  font-weight normal
+
+.flatpickr-days
+  width 280px
+  padding 7px 14px 0
+
+.dayContainer
+  max-width initial
+  min-width auto
+  flex 0 0 252px
+
+.flatpickr-day
+  margin-bottom 7px
+  height 26px
+  line-height 26px
+  font-size 13px
+  border-radius 0
+  border none
+  color darker
+  &::before
+    content ''
+    position absolute
+    top 0
+    left 0
+    display block
+    width 36px
+    height 26px
+    background-color transparent
+    z-index -2
+  &::after
+    content ''
+    position absolute
+    top 0
+    left 50%
+    transform translateX(-50%)
+    display block
+    width 24px
+    height 24px
+    border-radius 13px
+    border 1px solid transparent
+    z-index -1
+
+  &,
+  &.prevMonthDay,
+  &.nextMonthDay
+    &.inRange,
+    &.today.inRange,
+    &:hover,
+    &:focus
+      background transparent
+      border-color transparent
+      &::after
+        background-color hover
+
+  &.today
+    color primary
+    &::after
+      background-color rgba(255, 199, 35, .05)
+      border-color primary
+    &:hover,
+    &:focus
+      background transparent
+      &::after
+        border-color primary
+        background-color primary
+    &.inRange
+      &::after
+        background-color transparent
+        border-color transparent
+
+  &.selected, &.startRange, &.endRange
+    &, &.inRange, &:focus, &:hover, &.prevMonthDay, &.nextMonthDay
+      background transparent
+      box-shadow none
+      color darker
+      border-color:transparent
+      &::after
+        border-color primary
+        background-color primary
+
+    &.startRange
+      &,
+      &.inRange
+        &::before
+          background-color rgba(primary, .3)
+          width 18px
+          left 50%
+        &:nth-child(7n)::before
+          width 28px
+          left 18px
+
+    &.endRange
+      &,
+      &.inRange
+        &::before
+          background-color rgba(primary, .3)
+          width 18px
+          right 50%
+        &:nth-child(7n+1)::before
+          width 28px
+          left -11px
+
+    &.startRange + .endRange
+      box-shadow none
+
+    &.startRange.endRange
+      &::before
+        background-color transparent
+
+  &.inRange
+    box-shadow none
+    color darker
+    &::before
+      background-color rgba(primary, .3)
+    &,
+    &.prevMonthDay,
+    &.nextMonthDay
+      &::after
+        background-color transparent
+      &.startRange,
+      &.endRange
+        &::after
+          background-color primary
+    &:nth-child(7n+1)::before
+      width 47px
+      left -11px
+    &:nth-child(7n)::before
+      width 47px
+      left 0
+
+// time zone
+.flatpickr-calendar.dateIsPicked.hasTime .flatpickr-time
+  height 36px
+  justify-content center
+  align-items center
+
+.flatpickr-time.time24hr .numInputWrapper
+  width 40px
+  height 24px
+  flex none
+  border 1px solid transparent
+  &:hover
+    border 1px solid #d0d1d4
+    border-radius 3px
+    background-color #FFF
+  span 
+    background-color #FFF
+    border-left 1px solid #d0d1d4
+    width 16px
+  &::after
+    display none
+
+  &:last-of-type
+    position relative
+    left 14px
+    
+.flatpickr-time .flatpickr-time-separator
+  height 24px
+  line-height 22px
+  color darker
+  margin 0 6px
+
+.flatpickr-time input
+  display block
+  line-height 22px
+  height 22px
+  text-align left
+  padding-left 4px
+  &.flatpickr-hour
+    font-weight normal
+
+.flatpickr-time
+  &.time24hr
+    justify-content center
+    align-items center

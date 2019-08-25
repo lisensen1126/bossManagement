@@ -1,0 +1,5 @@
+export const NOTIFY = 'notifications/NOTIFY'
+export const REMOVE_NOTIFICATION = 'notifications/REMOVE_NOTIFICATION'
+export const CLEAR_NOTIFICATIONS = 'notifications/CLEAR_NOTIFICATIONS'
+export const BROADCAST = 'notifications/BROADCAST'
+export const REMOVE_BROADCAST = 'notifications/REMOVE_BROADCAST'

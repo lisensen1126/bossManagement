@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Items/store</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="快捷洗车" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.400000006">
+        <g id="概览" transform="translate(-1151.000000, -142.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="card" transform="translate(1004.000000, 128.000000)">
+                <g id="Items/washing-grey" transform="translate(147.000000, 14.000000)">
+                    <g id="Items/store">
+                        <path d="M21,24 L3,24 C2.35,24 1.5,23.15 1.5,22.5 L1.5,16.5 C1.5,15.85 2.35,15 3,15 C3.65,15 4.5,15.85 4.5,16.5 L4.5,21 L19.5,21 L19.5,16.5 C19.5,15.85 20.35,15 21,15 C21.65,15 22.5,15.85 22.5,16.5 L22.5,22.5 C22.5,23.15 21.65,24 21,24 Z" id="Shape_1_copy_13"></path>
+                        <path d="M23.8,7.04545455 L20.5,0.5 C20.3,0.181818182 19.9,0 19.5,0 L4.5,0 C4.1,0 3.7,0.181818182 3.5,0.5 L0.2,7.04545455 C0.05,7.22727273 0,7.40909091 0,7.63636364 L0,9.27272727 C0,10.7727273 1.35,12 3,12 C5.3,12 6,9.81818182 6,9.81818182 C6.3,11.0909091 7.55,12 9,12 C11.3,12 12,9.81818182 12,9.81818182 C12.3,11.0909091 13.55,12 15,12 C17.3,12 18,9.81818182 18,9.81818182 C18.3,11.0909091 19.55,12 21,12 C22.65,12 24,10.7727273 24,9.27272727 L24,7.63636364 C24,7.40909091 23.95,7.22727273 23.8,7.04545455 Z" id="Shape_1_copy_13-2"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,56 @@
+maxWidth = 1920px
+mediumWidth = 1440px
+standWidth = 1280px
+minWidth = 1024px
+
+primary = #ffc723
+mediumYellow = #ffbb29
+
+standblack = #121212
+darker = #353535
+
+darkGrey = #666
+grey = #888
+lightGrey = #999
+
+placeholder = #b2b2b2
+
+hover = #f5f5f7
+standBackground = #f0f1f2
+line = #f0f0f0
+
+link = #2fabdd
+linkhover = #0A71A1
+error = #eb4e38
+
+borderColor = #c2c2c2
+errorBorderColor = #eb4e38
+disableBorderColor = #ddd
+
+borderRadius = 2px
+borderRadiusLarge = 3px
+
+formItemHeight = 32px
+
+media(width)
+  @media screen and (max-width: width)
+    {block}
+
+retina()
+  @media (-webkit-min-device-pixel-ratio: 2)
+    {block}
+
+getImage(path)
+  unquote('url(~@/assets/' + path + ')')
+
+clickable()
+  user-select none
+  cursor default
+  background-color #fff
+  transition background-color .3s ease-out
+  &:hover
+    background-color hover
+  &:active
+    background-color hover
+    transition none
+  {block}

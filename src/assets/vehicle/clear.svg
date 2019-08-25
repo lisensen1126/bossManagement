@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Input/clear</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Workbench" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5">
+        <g id="工作台-以车识件-选择车型操作" transform="translate(-1102.000000, -354.000000)" fill="#999999" fill-rule="nonzero">
+            <g id="car-select" transform="translate(830.000000, 338.000000)">
+                <g id="Input-Normal" transform="translate(8.000000, 8.000000)">
+                    <g id="Input/clear" transform="translate(264.000000, 8.000000)">
+                        <g id="Shape">
+                            <path d="M8,1 C4.15,1 1,4.15 1,8 C1,11.85 4.15,15 8,15 C11.85,15 15,11.85 15,8 C15,4.15 11.85,1 8,1 Z M11.0625,9.8375 L9.8375,11.0625 L8,9.225 L6.1625,11.0625 L4.9375,9.8375 L6.775,8 L4.9375,6.1625 L6.1625,4.9375 L8,6.775 L9.8375,4.9375 L11.0625,6.1625 L9.225,8 L11.0625,9.8375 Z"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>auth-alert</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Settings" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="设置-微信授权-授权失败" transform="translate(-810.000000, -318.000000)" fill="#FFFFFF">
+            <g id="row" transform="translate(724.000000, 272.000000)">
+                <g id="alert-circle-exc" transform="translate(82.000000, 42.000000)">
+                    <g id="auth-alert" transform="translate(4.000000, 4.000000)">
+                        <polygon id="Path" points="9.645 1 9 10 7 10 6.392 1"></polygon>
+                        <path d="M8,16 C6.895,16 6,15.105 6,14 C6,12.895 6.895,12 8,12 C9.105,12 10,12.895 10,14 C10,15.105 9.105,16 8,16 Z" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

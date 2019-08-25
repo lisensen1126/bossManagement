@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>car-front</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Workbench" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="工作台-以车识件-未选择车型" transform="translate(-228.000000, -104.000000)" fill="#D9DBDE" fill-rule="nonzero">
+            <g id="Group-4" transform="translate(216.000000, 92.000000)">
+                <g id="logo">
+                    <g id="car-front" transform="translate(12.000000, 12.000000)">
+                        <path d="M16,20 L16,22 C16,22.552 16.448,23 17,23 L21,23 C21.552,23 22,22.552 22,22 L22,20 L16,20 Z" id="Shape"></path>
+                        <path d="M1,19 L23,19 C23.552,19 24,18.552 24,18 L24,12 C24,11.735 23.895,11.48 23.707,11.293 L21.903,9.489 L19.97,1.757 C19.859,1.312 19.459,1 19,1 L5,1 C4.541,1 4.141,1.312 4.03,1.757 L2.097,9.489 L0.293,11.293 C0.105,11.48 0,11.735 0,12 L0,18 C0,18.552 0.448,19 1,19 Z M20,14.5 C20,15.328 19.328,16 18.5,16 C17.672,16 17,15.328 17,14.5 C17,13.672 17.672,13 18.5,13 C19.328,13 20,13.672 20,14.5 Z M5.781,3 L18.219,3 L19.719,9 L4.281,9 L5.781,3 Z M5.5,13 C6.328,13 7,13.672 7,14.5 C7,15.328 6.328,16 5.5,16 C4.672,16 4,15.328 4,14.5 C4,13.672 4.672,13 5.5,13 Z" id="Shape"></path>
+                        <path d="M2,20 L2,22 C2,22.552 2.448,23 3,23 L7,23 C7.552,23 8,22.552 8,22 L8,20 L2,20 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

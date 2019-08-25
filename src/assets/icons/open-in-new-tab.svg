@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="8px" viewBox="0 0 8 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>icons/open-in-new-tab</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="车检" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5">
+        <g id="技师业绩" transform="translate(-1260.000000, -86.000000)" fill="#B2B2B2" fill-rule="nonzero">
+            <g id="Filter" transform="translate(152.000000, 56.000000)">
+                <g id="total" transform="translate(1035.000000, 25.000000)">
+                    <g id="icons/open-in-new-tab-1" transform="translate(73.000000, 5.000000)">
+                        <g id="icons/open-in-new-tab">
+                            <path d="M0.649592282,0 L0.649592282,1.83760193 L4.86321351,1.83760193 L0,6.70081544 L1.29918456,8 L6.16239807,3.13678649 L6.16239807,7.35040772 L8,7.35040772 L8,0.918800965 C8,0.411622832 7.58837717,0 7.08119904,0 L0.649592282,0 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

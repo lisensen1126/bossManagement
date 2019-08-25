@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Nav/nav-menu-grey</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Nav/nav-menu-grey" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g fill="#A6B5C4" fill-rule="nonzero" id="Shape">
+            <path d="M8,14 L1,14 C0.448,14 0,13.552 0,13 C0,12.448 0.448,12 1,12 L8,12 C8.552,12 9,12.448 9,13 C9,13.552 8.552,14 8,14 Z"></path>
+            <path d="M15,4.019 L8,4.019 C7.448,4.019 7,3.571 7,3.019 C7,2.467 7.448,2.019 8,2.019 L15,2.019 C15.552,2.019 16,2.467 16,3.019 C16,3.572 15.552,4.019 15,4.019 Z"></path>
+            <path d="M15,9 L1,9 C0.448,9 0,8.552 0,8 C0,7.448 0.448,7 1,7 L15,7 C15.552,7 16,7.448 16,8 C16,8.552 15.552,9 15,9 Z"></path>
+        </g>
+    </g>
+</svg>

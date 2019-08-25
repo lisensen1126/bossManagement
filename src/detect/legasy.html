@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>警告！！</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <style type="text/css"><%= htmlWebpackPlugin.options.inline[2] %></style>
+  </head>
+  <body class="detect-page">
+    <div class="nav detect-header">
+      <div class="nav-left">
+        <div class="nav-item nav-brand">
+          <span>壳保养智慧门店</span>
+        </div>
+      </div>
+    </div>
+    <div class="detect-contanier">
+      <h1 class="title">是时候升级您的浏览器了</h1>
+      <p class="sub-title">您正在使用过时的浏览器，这意味着在升级浏览器前，您将无法访问车壳保养智慧门店，<br>我们推荐您使用 Firefox 浏览器。</p>
+      <div class="browser browser-firefox"></div>
+      <p class="browser-name">Firefox 浏览器</p>
+      <a href="./legasy-download.html" class="button is-primary">下载安装</a>
+      <hr class="line">
+      <h2 class="second-title">为什么要升级浏览器？</h2>
+      <div class="reason-code reason-with-icon">
+        <span class="reason-icon icon-secure"></span>
+        <h3 class="reason-title">更安全</h3>
+        <p class="reason-detail">新浏览器能够更好避免欺诈、病毒、木马、钓鱼攻击和其它威胁，并且能够更好的保护个人隐私。</p>
+      </div>
+      <div class="reason-code reason-with-icon">
+        <span class="reason-icon icon-faster"></span>
+        <h3 class="reason-title">更快</h3>
+        <p class="reason-detail">每款新浏览器都能够提升网页访问速度。</p>
+      </div>
+      <div class="reason-code reason-with-icon">
+        <span class="reason-icon icon-tech"></span>
+        <h3 class="reason-title">技术与兼容性</h3>
+        <p class="reason-detail">使用拥有最新科技、更易读、三维和视频的网页，享受精彩内容。</p>
+      </div>
+      <div class="reason-code reason-with-icon reason-bigger-margin">
+        <span class="reason-icon icon-experience"></span>
+        <h3 class="reason-title">更舒适的体验</h3>
+        <p class="reason-detail">借助全新功能、扩展和更强的兼容性，带来更舒适的网页浏览体验。新浏览器能够自动更新，并且全方位保护。</p>
+      </div>
+      <div id="moreReasonDetail"></div>
+<!--       <div class="reason-code reason-bigger-margin">
+        <h3 class="reason-title">您还在使用 Window XP 系统，您的操作系统不安全 。</h3>
+        <p class="reason-detail">自 2014 年 4 月 8 日起，Microsoft 不再为 Windows XP 和 Internet Explorer 8 及以下版本提供相应支持和更新。如果你继续使用这些，你将可能受到病毒、间谍软件和其他恶意软件的攻击，无法确保个人信息的安全。请参阅 <a href="https://support.microsoft.com/zh-cn/help/14223/windows-xp-end-of-support">Microsoft 关于 Windows XP 支持已经结束的说明 。</a></p>
+      </div>
+      <div class="reason-code">
+        <h3 class="reason-title">为什么会出现这个页面？</h3>
+        <p class="reason-detail">如果你不知道升级浏览器是什么意思，请请教一些熟练电脑操作的朋友。如果你使用的不是IE6/7/8，而是360浏览器、QQ浏览器、搜狗浏览器等，出现这个页面是因为你使用的不是该浏览器的最新版本，升级至最新即可。</p>
+      </div> -->
+    </div>
+  </body>
+  <!-- <script><%= require('../detect.js') %></script> -->
+  <script><%= htmlWebpackPlugin.options.inline[0] %></script>
+  <script><%= htmlWebpackPlugin.options.inline[1] %></script>
+  <script type="text/javascript">
+    init(detect())
+  </script>
+</html>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Maintenance Icons/tire</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Maintenance" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="智能保养-服务启用-轮胎系统" transform="translate(-255.000000, -304.000000)" stroke="#303030" stroke-width="2">
+            <g id="Content" transform="translate(192.000000, 72.000000)">
+                <g id="table" transform="translate(0.000000, 177.000000)">
+                    <g id="Row" transform="translate(0.000000, 33.000000)">
+                        <g id="Maintenance-Icons/tire" transform="translate(63.000000, 22.000000)">
+                            <path d="M12,1 L12,8" id="Shape"></path>
+                            <path d="M1.538,8.601 L8.196,10.764" id="Shape"></path>
+                            <path d="M5.534,20.899 L9.649,15.236" id="Shape"></path>
+                            <path d="M18.466,20.899 L14.351,15.236" id="Shape"></path>
+                            <path d="M22.462,8.601 L15.804,10.764" id="Shape"></path>
+                            <circle id="Oval" stroke-linecap="square" cx="12" cy="12" r="11"></circle>
+                            <circle id="Oval" stroke-linecap="square" cx="12" cy="12" r="4"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

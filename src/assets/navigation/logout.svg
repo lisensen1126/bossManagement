@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Menu/logout</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Menu/logout" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g fill="#B2B2B2" fill-rule="nonzero" id="Shape">
+            <polygon points="11 12.414 15.414 8 11 3.586 9.586 5 11.586 7 5 7 5 9 11.586 9 9.586 11"></polygon>
+            <path d="M12,14 L3,14 L3,2 L12,2 L12,0 L2,0 C1.448,0 1,0.448 1,1 L1,15 C1,15.552 1.448,16 2,16 L12,16 L12,14 Z"></path>
+        </g>
+    </g>
+</svg>

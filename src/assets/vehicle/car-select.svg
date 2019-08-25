@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>empty/car-select</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Workbench" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="工作台-以车识件-选择车型操作" transform="translate(-1342.000000, -482.000000)" stroke="#B2B2B2" stroke-width="2">
+            <g id="car-select" transform="translate(1206.000000, 338.000000)">
+                <g id="empty/car-select" transform="translate(136.000000, 144.000000)">
+                    <g>
+                        <path d="M21,41 L43,41" id="Shape"></path>
+                        <path d="M55,41 C58.3136902,41 61,38.3137016 61,35 L61,34.0828018 C61,31.1497001 58.8795013,28.6466007 55.9863892,28.1644001 L51.6746979,27.4458008 C49.9231873,27.1539002 48.2810059,26.4008007 46.9169007,25.2640991 L39.7812958,19.3178005 C37.9841919,17.8202 35.7188873,17 33.3795013,17 L23.9167022,17 C21.2012939,17 19,19.2012997 19,21.9167004 L19,27 L7,27 C4.7908936,27 3,28.7908993 3,31 L3,35 C3,38.3137016 5.6862946,41 9,41" id="Shape"></path>
+                        <path d="M41.6580963,21 L24.5,21 C23.6716003,21 23,21.6716003 23,22.5 L23,26 C23,26.5522995 23.4476929,27 24,27 L49.7332916,27" id="Shape"></path>
+                        <path d="M31,27 L31,21" id="Shape"></path>
+                        <path d="M57,33 L60.7998962,33" id="Shape"></path>
+                        <path d="M31,31 L33,31" id="Shape"></path>
+                        <circle id="Oval" cx="15" cy="41" r="6"></circle>
+                        <circle id="Oval" cx="15" cy="41" r="1.75"></circle>
+                        <circle id="Oval" cx="49" cy="41" r="6"></circle>
+                        <circle id="Oval" cx="49" cy="41" r="1.75"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

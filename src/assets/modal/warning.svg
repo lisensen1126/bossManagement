@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Modal/warning</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFBD39" offset="0%"></stop>
+            <stop stop-color="#FFD762" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Style#1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-264.000000, -4451.000000)">
+        <g id="Alert" transform="translate(136.000000, 4420.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="Head" transform="translate(42.000000, 31.000000)">
+                <g id="Modal/warning" transform="translate(86.000000, 0.000000)">
+                    <path d="M32,1 C14.907,1 1,14.907 1,32 C1,49.093 14.907,63 32,63 C49.093,63 63,49.093 63,32 C63,14.907 49.093,1 32,1 Z M34.621,13 L33.311,39.862 L30.69,39.862 L29.379,13 L34.621,13 Z M32,51 C30.343,51 29,49.657 29,48 C29,46.343 30.343,45 32,45 C33.657,45 35,46.343 35,48 C35,49.657 33.657,51 32,51 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

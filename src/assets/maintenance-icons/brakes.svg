@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Maintenance Icons/brakes</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Maintenance" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="智能保养-服务启用-低频保养" transform="translate(-255.000000, -374.000000)">
+            <g id="Content" transform="translate(192.000000, 72.000000)">
+                <g id="table" transform="translate(0.000000, 177.000000)">
+                    <g id="Row" transform="translate(0.000000, 103.000000)">
+                        <g id="Maintenance-Icons/brakes" transform="translate(63.000000, 22.000000)">
+                            <path d="M19,14 C19,18.9705627 14.9705627,23 10,23 C5.02943725,23 1,18.9705627 1,14 C1,9.02943725 5.02943725,5 10,5" id="Shape" stroke="#303030" stroke-width="2"></path>
+                            <circle id="Oval" fill="#303030" fill-rule="nonzero" cx="14" cy="6" r="1"></circle>
+                            <circle id="Oval" fill="#303030" fill-rule="nonzero" cx="18" cy="10" r="1"></circle>
+                            <path d="M13,18 C11.0093985,19.4929511 8.22392587,19.2949937 6.46446609,17.5355339 C4.70500631,15.7760741 4.50704887,12.9906015 6,11" id="Shape" stroke="#303030" stroke-width="2" stroke-linecap="square"></path>
+                            <path d="M15,14 L23,14 C22.9922839,6.82349679 17.1765032,1.00771608 10,1 L10,9 C12.7600532,9.00330612 14.9966939,11.2399468 15,14 Z" id="Shape" stroke="#303030" stroke-width="2"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

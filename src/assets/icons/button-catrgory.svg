@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>icons/button-catrgory</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="服务商城" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="商城-商品管理" transform="translate(-1313.000000, -104.000000)" fill="#FFBB29" fill-rule="nonzero">
+            <g id="Filter" transform="translate(152.000000, 56.000000)">
+                <g id="Button" transform="translate(1152.000000, 40.000000)">
+                    <g id="icons/button-catrgory" transform="translate(9.000000, 8.000000)">
+                        <path d="M7.33333333,14 L2.66666667,14 C2.29866667,14 2,13.552 2,13 C2,12.448 2.29866667,12 2.66666667,12 L7.33333333,12 C7.70133333,12 8,12.448 8,13 C8,13.552 7.70133333,14 7.33333333,14 Z" id="Shape" opacity="0.600000024"></path>
+                        <path d="M13.3333333,4 L8.66666667,4 C8.29866667,4 8,3.552 8,3 C8,2.448 8.29866667,2 8.66666667,2 L13.3333333,2 C13.7013333,2 14,2.448 14,3 C14,3.553 13.7013333,4 13.3333333,4 Z" id="Shape" opacity="0.600000024"></path>
+                        <path d="M13.25,9 L2.75,9 C2.336,9 2,8.552 2,8 C2,7.448 2.336,7 2.75,7 L13.25,7 C13.664,7 14,7.448 14,8 C14,8.552 13.664,9 13.25,9 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

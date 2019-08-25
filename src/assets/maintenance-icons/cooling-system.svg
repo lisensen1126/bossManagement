@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Maintenance Icons/cooling-system</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="Maintenance-Icons/cooling-system" stroke="#303030" stroke-width="2">
+            <g>
+                <path d="M5,2 L6,2" id="Shape"></path>
+                <path d="M5,6 L6,6" id="Shape"></path>
+                <path d="M5,10 L6,10" id="Shape"></path>
+                <path d="M16,11.8 L16,4 C16,2.3 14.7,1 13,1 C11.3,1 10,2.3 10,4 L10,11.8 C8.2,12.8 7,14.8 7,17 C7,20.3 9.7,23 13,23 C16.3,23 19,20.3 19,17 C19,14.8 17.8,12.8 16,11.8 Z" id="Shape"></path>
+                <path d="M13,6 L13,14" id="Shape"></path>
+                <circle id="Oval" cx="13" cy="17" r="3"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
